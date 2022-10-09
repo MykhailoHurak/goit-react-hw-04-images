@@ -1,0 +1,28 @@
+.Loader__Box {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+}
+
+.Loader__ImSpinner {
+    margin-right: 10px;
+    animation: icon-spin 2s infinite linear;
+    color: orange;
+}
+
+@keyframes icon-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(359deg);
+    }
+}
+
+.Loader {
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 200px;
+}
